@@ -110,3 +110,26 @@ li {
     height: 150px;
     border-radius: 5px;
 }
+
+/* quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 26px;
+    font-style: italic;
+    width: 700px;
+}
+
+.cite {
+    color: #1F2937;
+    font-weight: bold;
+}
