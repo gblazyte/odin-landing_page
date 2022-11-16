@@ -55,6 +55,7 @@ li {
     color: #F9FAF8;
     font-size: 48px;
     margin: 0;
+    font-weight: 500;
 }
 
 .title p {
@@ -74,5 +75,38 @@ li {
     border: none;
     font-weight: 500;
     padding: 5px 25px;
+    border-radius: 5px;
+}
+
+
+/* information area */
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 50px;
+    text-align: center;
+
+}
+
+.info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+}
+
+.info-box img {
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
 }
