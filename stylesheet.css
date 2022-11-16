@@ -5,6 +5,8 @@ body {
 
 }
 
+/* Header styles */
+
 .hero {
     display: flex;
     align-items: center;
@@ -26,6 +28,33 @@ ul {
     list-style: none;
     color: #E5E7EB;
     font-size: 18px;
+}
 
+li {
+    padding: 10px;
+}
 
+/* Main title */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+
+}
+
+.title h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.title p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.main img {
+    width: 400px;
+    height: 250px;
 }
