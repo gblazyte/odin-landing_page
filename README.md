@@ -1,2 +1,3 @@
 # odin-landing_page
-In this project I will demostrate my knowledge of HTML and CSS by creating a web page from a design.
+This is my code for the Landing Page project in The Odin Project Foundations course where I am using my knowledge of HTML and CSS to create a web page. 
+The design for the website page was provided by Odin Project at https://www.theodinproject.com/lessons/foundations-landing-page#assignment.
