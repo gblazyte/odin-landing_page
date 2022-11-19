@@ -6,22 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+    </style>
     <title>Landing page</title>
 </head>
 
 <body>
-    <header>
+    <div class="hero">
         <div class="logo">
             <div>Header Logo</div>
         </div>
-        <div class="links">
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </div>
-    </header>
+        <ul>
+            <li>header link one</li>
+            <li>header link two</li>
+            <li>header link three</li>
+        </ul>
+    </div>
     <div class="main">
         <div class="title">
             <h1>This website is awesome</h1>
@@ -30,40 +31,50 @@
             <button>Sign Up</button>
         </div>
         <div class="image">
-            <img src="" alt="">
+            <img src="https://images.unsplash.com/photo-1667507947396-a3da62f07fce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt="image of mountains">
         </div>
     </div>
+    <h1 class="info-title">Some random information</h1>
     <div class="info">
-        <h1>Some random information</h1>
         <div class="info-box">
-            <img src="" alt="">
+            <img src="https://images.unsplash.com/photo-1667507947396-a3da62f07fce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt="image of mountains">
             <div class="text">subtext under an illustration or image</div>
         </div>
         <div class="info-box">
-            <img src="" alt="">
+            <img src="https://images.unsplash.com/photo-1667507947396-a3da62f07fce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt="image of mountains">
             <div class="text">subtext under an illustration or image</div>
         </div>
         <div class="info-box">
-            <img src="" alt="">
+            <img src="https://images.unsplash.com/photo-1667507947396-a3da62f07fce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt="image of mountains">
             <div class="text">subtext under an illustration or image</div>
         </div>
         <div class="info-box">
-            <img src="" alt="">
+            <img src="https://images.unsplash.com/photo-1667507947396-a3da62f07fce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt="image of mountains">
             <div class="text">subtext under an illustration or image</div>
         </div>
     </div>
     <div class="quote">
-        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim vel justo elementum venenatis.
-            Maecenas pretium mollis malesuada. Donec pharetra nunc ultrices ex ultricies, vel porttitor orci
-            scelerisque. </blockquote>
-        <cite>-Thor, God of Thunder</cite>
+        <div class="quote-text">
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim vel justo elementum
+                venenatis.
+                Maecenas pretium mollis malesuada. Donec pharetra nunc ultrices ex ultricies, vel porttitor orci
+                scelerisque. </blockquote>
+        </div>
+        <div class="cite">-Thor, God of Thunder</div>
     </div>
     <div class="action">
         <div class="action-header">
-            Call to action! It's time!
-        </div>
-        <div class="action-text">
-            Sign up for our product by clicking the button right over there!
+            <div class="action-title">
+                Call to action! It's time!
+            </div>
+            <div class="action-text">
+                Sign up for our product by clicking the button right over there!
+            </div>
         </div>
         <button>
             Sign up
